@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f5ed">
+  <meta name="description" content="A quiet room for guided meditation, with a pauseable timer and optional countdown.">
+  <title>Practice Room · Stillspace</title>
+  <link rel="icon" href="assets/sunrise.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css?v=2">
+  <script type="module" src="practice.js"></script>
+</head>
+<body class="page-practice">
+<a class="skip" href="#main">Skip to content</a>
+<header class="masthead"><div class="wrap mast-inner">
+  <a class="brand" href="index.html" aria-label="Stillspace home"><img src="assets/sunrise.svg" width="48" height="36" alt="">Stillspace</a>
+  <nav class="desktop-nav" aria-label="Main navigation"><a href="index.html">Home</a>
+<a href="techniques.html">Techniques</a>
+<a href="sessions.html">Sessions</a>
+<a href="practice.html" aria-current="page">Practice Room</a>
+<a href="tracker.html">Tracker</a></nav>
+</div></header>
+<main id="main" tabindex="-1">
+<section class="room" aria-labelledby="session-title"><div class="room-inner">
+ <h1 id="session-title">Practice Room</h1><p id="phase" class="phase"></p>
+ <div class="focus"><span class="ripple" aria-hidden="true"></span><img class="completion-mark" src="assets/sunrise.svg" width="72" height="54" alt="" hidden><p id="cue" aria-live="polite">Loading your session…</p></div>
+ <div id="room-controls"><p id="clock" role="timer"></p>
+ <button id="primary-control" class="button light" type="button" hidden>Start session</button>
+ <div class="room-links"><button type="button" id="clock-control" hidden>Hide countdown</button><button type="button" id="end-control" hidden>End session</button>
+ <a href="sessions.html" id="choose-session">Choose a session</a></div>
+ </div><p id="room-message" role="status"></p></div></section>
+<dialog id="end-dialog"><h2>End this practice?</h2><p>This will close your current session without adding it to your tracker.</p>
+<div class="dialog-actions"><button type="button" class="button primary" id="keep-going" autofocus>Continue practice</button>
+<button type="button" class="secondary" id="confirm-end">End session</button></div></dialog></main>
+<nav class="mobile-nav" aria-label="Mobile navigation"><a href="index.html"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#home"></use></svg><span>Home</span></a>
+<a href="techniques.html"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#book"></use></svg><span>Learn</span></a>
+<a href="sessions.html"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#sessions"></use></svg><span>Sessions</span></a>
+<a href="practice.html" aria-current="page"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#practice"></use></svg><span>Practice</span></a>
+<a href="tracker.html"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#tracker"></use></svg><span>Log</span></a></nav>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sessions language="en">
+  <session id="pause" minutes="3" techniques="breath">
+    <title>The 3-minute pause</title>
+    <description>Settle into your seat and use a few natural breaths to find a moment of quiet.</description>
+    <cue at="0" phase="Settle in">Feel the support beneath you. Let your shoulders soften.</cue>
+    <cue at="30" phase="Quiet practice">Follow the feeling of your breathing. Gently return to the next breath.</cue>
+    <cue at="150" phase="Return">Notice a sound nearby. Let your attention return to the room.</cue>
+  </session>
+  <session id="sounds" minutes="3" techniques="listen">
+    <title>Listen to your surroundings</title>
+    <description>Listen for sounds close by and far away, letting each one come and go.</description>
+    <cue at="0" phase="Settle in">Let your hands rest. Notice the sounds already around you.</cue>
+    <cue at="40" phase="Listen nearby">Choose one nearby sound. Notice its texture without naming it.</cue>
+    <cue at="100" phase="Widen your attention">Listen farther away. Allow the sounds to overlap and fade.</cue>
+    <cue at="155" phase="Return">Feel your feet against the ground. Take in the space around you.</cue>
+  </session>
+  <session id="scan" minutes="5" techniques="body">
+    <title>A gentle body scan</title>
+    <description>Travel slowly from your feet to your face, noticing sensations along the way.</description>
+    <cue at="0" phase="Settle in">Find a comfortable position. Let your hands rest.</cue>
+    <cue at="40" phase="Feet and legs">Notice the weight of your feet and the contact beneath your legs.</cue>
+    <cue at="120" phase="Hands and shoulders">Feel your fingertips, palms, and forearms. Let your shoulders rest.</cue>
+    <cue at="200" phase="Face and jaw">Notice your cheeks and the space around your eyes.</cue>
+    <cue at="270" phase="Return">Sense your whole body. Slowly look around the room.</cue>
+  </session>
+  <session id="steps" minutes="5" techniques="walk">
+    <title>A mindful walk</title>
+    <description>Take an easy walk along a familiar path, attending to one step at a time.</description>
+    <cue at="0" phase="Find your path">Choose a clear path. Keep your eyes open and take an easy step.</cue>
+    <cue at="45" phase="Feel each step">Notice your foot lift, move forward, and meet the ground.</cue>
+    <cue at="150" phase="Walk at ease">Let your arms move naturally. Return to the feel of your next step.</cue>
+    <cue at="265" phase="Come to a stop">Slow down and pause. Feel the ground beneath both feet.</cue>
+  </session>
+  <session id="return" minutes="7" techniques="breath">
+    <title>Return to the breath</title>
+    <description>Practise noticing when the mind wanders and returning gently to your breath.</description>
+    <cue at="0" phase="Settle in">Rest your hands and notice your natural breathing.</cue>
+    <cue at="60" phase="Find an anchor">Feel the breath where it is easiest to notice.</cue>
+    <cue at="180" phase="Quiet practice">When a thought catches your attention, come back to one breath.</cue>
+    <cue at="375" phase="Return">Let your gaze widen and notice the light around you.</cue>
+  </session>
+  <session id="evening" minutes="10" techniques="body">
+    <title>Evening wind-down</title>
+    <description>A slow body scan with quiet time to mark the end of your day.</description>
+    <cue at="0" phase="Settle in">Find a position that feels restful. Notice the support underneath you.</cue>
+    <cue at="90" phase="Body scan">Move your attention from your toes to your knees, slowly.</cue>
+    <cue at="240" phase="Rest your shoulders">Notice your hands, shoulders, and face. Allow them to rest.</cue>
+    <cue at="390" phase="Quiet practice">Let your attention settle on the rise and fall of your breath.</cue>
+    <cue at="550" phase="Return">Listen to a nearby sound and ease back into the room.</cue>
+  </session>
+  <session id="deep" minutes="20" techniques="body breath">
+    <title>Deep Stillness</title>
+    <description>A slow body scan followed by a longer stretch of quiet breath awareness.</description>
+    <cue at="0" phase="Settle in">Sit comfortably. Feel where your body meets the chair or floor.</cue>
+    <cue at="120" phase="Body scan">Move your attention slowly from your feet to your face.</cue>
+    <cue at="360" phase="Quiet practice">Let your attention rest on the next breath.</cue>
+    <cue at="660" phase="Quiet practice">If your mind has wandered, gently return to your natural breath.</cue>
+    <cue at="960" phase="Return">Notice sounds in the room. Feel your hands and feet.</cue>
+    <cue at="1140" phase="Finish gently">Let your gaze widen. Take this last minute at your own pace.</cue>
+  </session>
+</sessions>

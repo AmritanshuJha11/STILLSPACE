@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f5ed">
+  <meta name="description" content="Find a guided meditation by duration or technique.">
+  <title>Guided sessions · Stillspace</title>
+  <link rel="icon" href="assets/sunrise.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css?v=2">
+  <script type="module" src="sessions.js"></script>
+</head>
+<body class="page-sessions">
+<a class="skip" href="#main">Skip to content</a>
+<header class="masthead"><div class="wrap mast-inner">
+  <a class="brand" href="index.html" aria-label="Stillspace home"><img src="assets/sunrise.svg" width="48" height="36" alt="">Stillspace</a>
+  <nav class="desktop-nav" aria-label="Main navigation"><a href="index.html">Home</a>
+<a href="techniques.html">Techniques</a>
+<a href="sessions.html" aria-current="page">Sessions</a>
+<a href="practice.html">Practice Room</a>
+<a href="tracker.html">Tracker</a></nav>
+</div></header>
+<main id="main" tabindex="-1">
+<div class="wrap interior">
+ <div class="sessions-head"><h1>Guided sessions</h1>
+ <button type="button" class="secondary filter-toggle" aria-controls="filters" aria-expanded="false"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#filter"></use></svg>Filters</button>
+ <div class="filters" id="filters"><label>Duration<select id="duration"><option value="">All durations</option><option value="short">Up to 5 minutes</option><option value="mid">6–10 minutes</option><option value="long">Over 10 minutes</option></select></label>
+ <label>Technique<select id="technique"><option value="">All techniques</option><option value="breath">Breath awareness</option><option value="body">Body scan</option><option value="listen">Mindful listening</option><option value="walk">Walking meditation</option></select></label></div></div>
+ <div id="catalogue" aria-busy="true"><p>Loading sessions…</p></div><p id="result-status" class="sr-only" role="status"></p>
+</div></main>
+<nav class="mobile-nav" aria-label="Mobile navigation"><a href="index.html"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#home"></use></svg><span>Home</span></a>
+<a href="techniques.html"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#book"></use></svg><span>Learn</span></a>
+<a href="sessions.html" aria-current="page"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#sessions"></use></svg><span>Sessions</span></a>
+<a href="practice.html"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#practice"></use></svg><span>Practice</span></a>
+<a href="tracker.html"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#tracker"></use></svg><span>Log</span></a></nav>
+</body>
+</html>
