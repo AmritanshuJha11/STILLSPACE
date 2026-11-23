@@ -2,17 +2,9 @@
 
 A five-page meditation and mindfulness website for Web Technology Lab (34261107). Built with semantic HTML, external CSS, vanilla JavaScript and XML.
 
-## Run locally
+## Live website
 
-In the folder containing index.html, start VS Code Live Server or run:
-
-```sh
-python -m http.server 8000
-```
-
-Open http://localhost:8000. The pages use JavaScript modules and load sessions.xml over HTTP. All photos, icons and application files are included locally.
-
-The website files are at the repository root. The live version is available at [Stillspace](https://stillspace-by-aj.atomiccoral1.chatgpt.site).
+[Open Stillspace on GitHub Pages](https://amritanshujha11.github.io/STILLSPACE/)
 
 ## Pages
 
